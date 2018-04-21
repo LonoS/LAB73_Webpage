@@ -2,4 +2,34 @@ html{
     background: rgba(196,191,201,0.89);
     margin: 0;
     padding: 0;
+    font-family: Roboto, sans-serif;
+
+}
+
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+
+}
+
+.navigation p{
+    font-weight: 800;
+    font-size: 7rem;
+    text-align: center;
+    margin: auto;
+    padding: 6rem 0 2.5rem 0;
+}
+
+
+
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v15/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
 }
