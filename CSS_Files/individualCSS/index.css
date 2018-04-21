@@ -1,0 +1,4 @@
+.appCards{
+    display: flex;
+    flex-direction: column;
+}
