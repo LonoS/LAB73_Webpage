@@ -1,7 +1,7 @@
 .ProjektCard {
     transition: 0.4s ease;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-    width: 80%;
+    width: 90%;
     background-color: white;
     margin: 2rem auto 0rem auto;
     overflow: auto;
