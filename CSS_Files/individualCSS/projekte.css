@@ -1,0 +1,61 @@
+.ProjektCard {
+    transition: 0.4s ease;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    width: 80%;
+    background-color: white;
+    margin: 2rem auto 0rem auto;
+    overflow: auto;
+    max-width: 80rem;
+    border-radius: 0.25rem;
+}
+
+.ProjektCard:hover {
+    transition: 0.8s ease;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+}
+
+.ProjektCardFlex {
+    padding: 2rem 3rem 0 3rem;
+    display: flex;
+    align-items: center;
+}
+
+.ProjektCardFlex p {
+    margin: auto 0 auto 1rem;
+    padding: 1rem;
+    text-align: justify;
+    font-size: large;
+}
+
+.ProjektCardFlex p b {
+    font-size: x-large;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+    height: 6rem;
+}
+
+
+.ProjektCard button {
+    transition: 0.3s ease;
+    border-style: none;
+    background-color: black;
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    float: right;
+    font-size: small;
+
+    /*
+        use this margin only for the first button "Download" the second has to be changed in html
+    */
+    margin: 0rem 4rem 1rem 0rem;
+
+}
+
+.ProjektCard button:hover {
+    transition: 0.5s ease;
+    background-color: grey;
+}
