@@ -1,4 +1,131 @@
-.appCards{
+.ProjektCard {
+    transition: 0.4s ease;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    width: 80%;
+    background-color: white;
+    margin: 2rem auto 0rem auto;
+    overflow: auto;
+    max-width: 80rem;
+    border-radius: 0.25rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.cards{
     display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+
+
+}
+
+.introductionText{
+    text-align: center;
+    margin-top: 1rem;
+    color: #4e4e4e;
+    font-size: 1.25rem;
+}
+
+.ueberschrift{
+    text-align: center;
+    font-size: 3rem;
+    font-family: Roboto;
+    font-weight: 700;
+    color: black;
+}
+
+.ProjektCard:hover {
+    transition: 0.8s ease;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.8);
+}
+
+.ProjektCardFlex {
+    padding: 2rem 3rem 0 3rem;
+    display: flex;
+    align-items: center;
     flex-direction: column;
 }
+
+.ProjektCardFlex p {
+    margin: auto 0 auto 1rem;
+    padding: 1rem;
+    text-align: justify;
+    font-size: large;
+}
+
+.ProjektCardFlex p b {
+    font-size: x-large;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+    height: 6rem;
+}
+
+
+.ProjektCard button {
+    transition: 0.3s ease;
+    border-style: none;
+    background-color: black;
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    float: right;
+    font-size: small;
+
+    /*
+        use this margin only for the first button "Download" the second has to be changed in html
+    */
+    margin: 0rem 4rem 1rem 0rem;
+
+}
+
+
+
+
+.ProjektCard button:hover {
+    transition: 0.5s ease;
+    background-color: grey;
+}
+.btn-app-store{
+    background: black;
+    color: white;
+    position: relative;
+    height: 60px;
+    padding-left: 55px;
+    padding-right: 20px;
+}
+.btn-app-store i{
+    font-size: 40px;
+    position: absolute;
+    left: 10px;
+}
+.btn-app-store .small{
+    display: block;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+.btn-app-store .big{
+    display: block;
+    text-align: left;
+    font-size: 21px;
+    line-height: 21px;
+}
+
+
+footer{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    padding-top: 4rem;
+
+    color: white;
+    text-align: center;
+}
+
