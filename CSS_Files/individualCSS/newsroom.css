@@ -6,7 +6,6 @@ main {
 }
 
 .NewsCard {
-    position: relative;
     transition: 0.5s ease;
 
     margin: 1.5rem;
@@ -27,6 +26,56 @@ main {
     opacity: 1;
 }
 
+
+.NewsCardThumbnailTitle {
+    transition: 0.3s ease;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.NewsCardThumbnailTitle p:first-child {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.5rem;
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+.NewsCardThumbnailTitle p {
+    display: none;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.NewsCardThumbnailTitle:hover p:first-child {
+    position: static;
+    top:auto;
+    left: auto;
+    transform: none;
+    margin: 0;
+    padding: 1rem;
+    background-color: transparent;
+}
+
+.NewsCardThumbnailTitle:hover p {
+    display: block;
+    margin: 0;
+
+}
+
+.NewsCardThumbnailTitle:hover {
+    transition: 0.3s ease;
+    background-color: rgba(0,0,0,0.8);
+}
+/*
 .NewsCardThumbnailTitle {
     background-color: rgba(0,0,0,0.9);
     padding: 0.5rem;
@@ -35,14 +84,40 @@ main {
     color: white;
 
 
-
     width: 70%;
-    display: block;
-    margin: auto;
-    justify-content: center;
+
 
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+.NewsCardThumbnailTitle p {
+    background-color: rgba(0,0,0,0.9);
+    padding: 0.5rem;
+    text-align: center;
+    font-size: xx-large;
+    color: transparent;
+
+    width: 70%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.NewsCard:hover {
+
+    position: static;
+    transform: none;
+    top: auto;
+    left: auto;
+
+}
+
+.NewsCard:hover p {
+    color: white;
+}
+*/
