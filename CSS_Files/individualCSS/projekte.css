@@ -31,14 +31,15 @@
     font-size: x-large;
 }
 
-img {
+main img {
     padding: 0;
     margin: 0;
     height: 6rem;
+    border-radius: 1rem;
 }
 
 
-.ProjektCard button , a{
+.ProjektCard button ,main a{
     transition: 0.3s ease;
     border-style: none;
     background-color: black;

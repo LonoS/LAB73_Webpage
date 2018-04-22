@@ -21,10 +21,15 @@ html{
     font-weight: 800;
     font-size: 7rem;
     text-align: center;
-    margin: auto;
-    padding: 6rem 0 2.5rem 0;
-}
+    margin: 5rem auto 4rem auto;
 
+}
+.navigation img{
+    display: block;
+    margin: 5rem auto 4rem auto;
+    height: 10rem;
+    width: auto;
+}
 
 
 
