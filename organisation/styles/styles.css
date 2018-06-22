@@ -1,0 +1,70 @@
+html, body {
+    font-family: "Helvetica Neue";
+    background-color: darkgrey;
+}
+
+header {
+    background-color: black;
+}
+
+
+.headline {
+    margin: auto;
+    background-color: black;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    padding: 2rem 2rem 1rem 2rem;
+}
+
+.subheadline {
+    font-size: x-large;
+    padding: 0rem 1rem 2rem 1rem;
+    font-weight: lighter;
+}
+
+.sitesBar {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: auto;
+}
+
+ul il {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: x-large;
+    font-weight: normal;
+    width: 33%;
+}
+
+ul il:hover {
+    background-color: #494949;
+}
+
+/* for the sitesBar */
+.selected {
+    border-bottom: solid;
+    border-color: white;
+    border-width: 0.5rem;
+}
+
+.dontDisplay {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    background-color: forestgreen;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+    font-size: small;
+}
