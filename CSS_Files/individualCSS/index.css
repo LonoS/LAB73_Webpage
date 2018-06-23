@@ -58,6 +58,11 @@
     font-size: x-large;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 .cards img {
     padding: 0;
     margin: 0;
