@@ -17,22 +17,27 @@ if (isset($_POST["username"])) {
 <head>
     <meta charset="UTF-8">
     <title>LAB73 - Admin login</title>
+    <link rel="stylesheet" href="styles/login.css">
 </head>
 <body>
 
-<h1>Login für Website - Organisation</h1>
+<h1>Login für Organisation</h1>
 
-<a href="../HTML_Files/index.html">Zurück zur Hauptseite.</a>
+<a href="../HTML_Files/index.html"><h4>Zurück zur Hauptseite.</h4></a>
+
 
 <form action="login.php" method="post">
+
     <p>Username:</p>
-    <p><input type="text" name="username"></p>
+    <p><input type="text" name="username" ></p>
 
     <p>Passwort:</p>
     <p><input type="password" name="password"></p>
 
     <button type="submit">Login</button>
+
 </form>
+
 
 </body>
 </html>
